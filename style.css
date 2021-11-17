@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.info a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    display: flex;
+    place-items: center;
+    text-align: center;
+
+}
+
+.words{
+    margin-left: 20px;
+}
+
+.content h1{
+
+    margin-bottom: 10px;
+}
+
+.photo{
+    display: flex;
+    place-content: center;
+}
+
+img{
+    margin-top: 10px;
+    width: 80%;
+}
+
+.section{
+    text-align: center;
+    width:60%;
+    margin-top: 50px;
+}
+
+.section h1{
+   font-family: monospace;
+   font-size: 40px;
+}
+
+.section p{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.pr{
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-evenly ;
+}
+
+#pic{
+    display: flex;
+    margin-left: 40px;
+    width: 600px;   
+}
+
+.text{
+    margin-top: 40px;
+    list-style-position: inside;
+}
+
+.pr2{
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-evenly ;
+}
+
+#pic2{
+    /* border: 1px solid; */
+    /* margin-left: 40px; */
+    width: 600px;   
+}
+
+.text2{
+    /* border: 1px solid; */
+    margin-top: 40px;
+    margin-right: 70px;
+    list-style-position: inside; 
+}
+
+.aboutme{
+    width: 50%;
+    height: 90vh;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
